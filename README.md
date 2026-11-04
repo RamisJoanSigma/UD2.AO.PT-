@@ -8,22 +8,25 @@ S'han creat les 6 plantilles demanades a l'exercici, basades en els models del l
 
 | Fitxer | Tipus de document | Contingut adaptat |
 |--------|-------------------|-------------------|
-| `plantilles/01_anunci.html` | Anunci | Matriculació cursos Escola Municipal Maó (Ceràmica, Música, Dibuix) |
-| `plantilles/02_carta.html` | Carta | Comanda de 2 multifuncions de l'IES Joan Ramis i Ramis a Xerox Menorca |
-| `plantilles/03_certificat.html` | Certificat | Certificat d'estudis de 1r SMX |
-| `plantilles/04_circular.html` | Circular | Avís de pagament IBI fins a l'abril |
-| `plantilles/05_citacio.html` | Citació | Citació d'Hisenda per firmar Model 061 |
-| `plantilles/06_contracte.html` | Contracte | Compravenda d'habitatge |
+| `01_anunci.odt` | Anunci | Matriculació cursos Escola Municipal Maó (Ceràmica, Música, Dibuix) |
+| `02_carta.odt` | Carta | Comanda de 2 multifuncions de l'IES Joan Ramis i Ramis a Xerox Menorca |
+| `03_certificat.odt` | Certificat | Certificat d'estudis de 1r SMX |
+| `04_circular.odt` | Circular | Avís de pagament IBI fins a l'abril |
+| `05_citacio.odt` | Citació | Citació d'Hisenda per firmar Model 061 |
+| `06_contracte.odt` | Contracte | Compravenda d'habitatge |
 
-## Com obrir-los a LibreOffice
+## Com obtenir els fitxers .odt
 
-1. Obre LibreOffice Writer.
-2. **Fitxer → Obrir** i selecciona el fitxer `.html`.
-3. Guarda com a **.odt** (`Fitxer → Anomena i desa → Text ODF (.odt)`).
-4. Personalitza estils, marges, capçaleres i peus de pàgina segons calgui.
+Els fitxers `.odt` s'han generat amb LibreOffice i estan disponibles per descarregar des de la conversa amb Grok (zip `plantilles_ODT.zip`).
 
-Els estils ja inclouen:
-- Tipus de lletra diferents (Sans / Serif)
+**Puja'ls manualment al repositori (recomanat):**
+1. Descarrega el zip des de la conversa anterior.
+2. A GitHub → repositori **UD2.AO.PT-** → **Add file** → **Upload files**.
+3. Arrossega els 6 fitxers `.odt` (pots crear la carpeta `plantilles/` si vols).
+
+## Estils aplicats
+
+- Tipus de lletra diferents (Liberation Sans / Serif)
 - Colors (blau institucional i vermell per a títols)
 - Interlineat i alineació justificada
 - Marges adequats
